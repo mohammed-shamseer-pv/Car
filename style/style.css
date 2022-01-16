@@ -1,0 +1,108 @@
+/* Css Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UL and a tage reset  */
+ul{
+    list-style: none;
+  
+}
+a{
+    text-decoration: none;
+}
+
+  /* End */
+body{
+    font-family: 'Roboto', sans-serif;  
+    font-size: 16px;
+}
+
+ /* Heder Section */
+ header{
+   
+     padding: 10px 74px;
+     position: absolute;
+     z-index: 2;
+     width: 100%;
+   
+     background: linear-gradient(to bottom,rgba(0,0,0,3) 0%, rgba(0,0,0,0)100%);
+ }
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    margin: 0 12px;
+  
+    
+}
+.navbar a{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 20px;
+    padding: 7px 5px;
+}
+.navbar li:last-child a{
+    padding-right: 0;
+}
+.navbar li a{
+    transition: color ease 0.7s;
+}
+.navbar li:hover a{
+    color: #f70142;
+}
+
+.navbar li.activ a{
+    border-bottom: 2px solid #f70142;
+}
+
+/* hero */
+.hero{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.hero img{
+ width: 100%;
+}
+.hero .hero-info h1{
+    color: white;
+    font-size: 74px;
+    font-weight: 900;
+}
+.hero .hero-info h1 span{
+    line-height: 74px;
+    font-size: 38px;
+    font-weight: 400;
+}
+.hero .hero-info{
+    position: absolute;
+    top: 50%;
+    left: 78px;
+  transform: translateY(-50%);
+  max-width: 355px;
+}
+.hero .hero-info .cta-btn{
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    background-color: #f70142;
+    padding: 12px 30px;
+    border-radius: 24px;
+    transition: background-color ease-in-out 0.3s;
+}
+.hero .hero-info .cta-btn:hover{
+    background-color: black;
+    
+}
