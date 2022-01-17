@@ -31,9 +31,10 @@ body{
      background: linear-gradient(to bottom,rgba(0,0,0,3) 0%, rgba(0,0,0,0)100%);
  }
 .logo img{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
+    margin-top: 23px;
 }
 header nav{
     display: flex;
@@ -86,12 +87,19 @@ header nav{
     font-size: 38px;
     font-weight: 400;
 }
+.hero .hero-info p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom:32px;
+
+}
 .hero .hero-info{
     position: absolute;
     top: 50%;
     left: 78px;
   transform: translateY(-50%);
-  max-width: 355px;
+  max-width: 440px;
 }
 .hero .hero-info .cta-btn{
     color: #fff;
@@ -105,4 +113,16 @@ header nav{
 .hero .hero-info .cta-btn:hover{
     background-color: black;
     
+}
+ .swiper-pagination-bullet{
+    width: 23px;
+    height: 23px;
+    background: transparent;
+    border: 2px solid white;
+    opacity: 1;
+    outline: none;
+}
+ .swiper-pagination-bullet-active{
+    border: 2px solid #f70142;
+
 }

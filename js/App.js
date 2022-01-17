@@ -1,7 +1,7 @@
 
 //Hero swiper sstart
  var swiper = new Swiper(".mySwiper", {
-     speed:2000,
+     speed:4000,
     spaceBetween: 0,
     loop:true,
     pagination: {
@@ -10,7 +10,7 @@
     },
 
     autoplay: {
-        delay: 1000,
+        delay: 3000,
     },
   });
 
