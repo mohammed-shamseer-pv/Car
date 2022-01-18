@@ -133,7 +133,7 @@ header nav .fa-bars{
     position: relative;
     height: 100vh;
     overflow: hidden;
-    background: yellow;
+    background: rgb(0, 0, 0);
 }
 .hero img{
  width: 100%;
