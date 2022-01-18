@@ -16,6 +16,14 @@
 
   //Hero swiper End
 
+// Mobail mennu
+let mobailMenuIcon=document.querySelector('.fa-bars');
+let menu=document.querySelector('.menu');
+
+mobailMenuIcon.addEventListener('click', function(){
+  menu.classList.toggle("open");
+});
+
 
 
  

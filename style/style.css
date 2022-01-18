@@ -30,23 +30,76 @@ body{
    
      background: linear-gradient(to bottom,rgba(0,0,0,3) 0%, rgba(0,0,0,0)100%);
  }
+
+@media (max-width:767px) {
+    header{
+        padding: 20px;
+    }
+
+}
+
+
 .logo img{
     width: 80px;
     height: 80px;
     border-radius: 50%;
     margin-top: 23px;
 }
+@media (max-width:767px) {
+    .logo img{
+        width: 50px;
+        height: 50px;
+    }
+    
+}
 header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.navbar ul{
+
+header nav .fa-bars{
+    display: none;
+}
+
+
+@media (max-width:767px) {
+    header nav .fa-bars{
+        display: block;
+    }
+
+}
+
+
+.navbar .menu{
     display: flex;
     margin: 0 12px;
   
     
 }
+
+@media (max-width:767px) {
+    .navbar .menu{
+        display: block;
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+        left: 0;
+        right: 0;
+        width: 100%;
+        top: 97px;
+        margin: 0;
+        padding: 45px 0;
+        display: none
+    }
+
+    .navbar .menu.open{
+        display:block ;
+    }
+
+}
+
+
+
 .navbar a{
     color: #fff;
     font-size: 22px;
@@ -64,8 +117,15 @@ header nav{
     color: #f70142;
 }
 
+
 .navbar li.activ a{
     border-bottom: 2px solid #f70142;
+}
+
+@media (max-width:767px) {
+    .navbar li.activ a{
+  border-bottom: none;
+  }
 }
 
 /* hero */
@@ -73,9 +133,17 @@ header nav{
     position: relative;
     height: 100vh;
     overflow: hidden;
+    background: yellow;
 }
 .hero img{
  width: 100%;
+}
+
+@media (max-width:767px) {
+    .hero img{
+        height:100vh;
+       object-fit: cover;
+    }
 }
 .hero .hero-info h1{
     color: white;
