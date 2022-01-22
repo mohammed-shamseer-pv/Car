@@ -142,6 +142,13 @@ header nav .fa-bars{
 .hero img{
  width: 100%;
 }
+@media (max-width:767px) {
+     .hero-info{
+        color: white;
+        font-size: 74px;
+        font-weight: 900;
+    }
+}
 
 @media (max-width:767px) {
     .hero img{
@@ -153,9 +160,10 @@ header nav .fa-bars{
 
 .hero .hero-info h1{
     color: white;
-    font-size: 74px;
+    font-size: 42px;
     font-weight: 900;
 }
+
 
 hero-info h1 span{
     line-height: 74px;
