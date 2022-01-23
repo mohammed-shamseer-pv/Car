@@ -455,10 +455,14 @@ hero-info h1 span{
 }
 
 /* footer */
+footer{
+    text-align: center;
+}
 .footer-menu{
     display: flex;
+   justify-content: center;
     margin-top: 32px;
-  padding: 13px 34px;
+    padding: 13px 34px;
     background-color: #0f0b0b;
     text-align: center;
 }
